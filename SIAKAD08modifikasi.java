@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class SIAKAD08modifikasi {
+    public static void main(String []args){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumlahmahasiswa = scanner.nextInt();
+        System.out.print("Masukkan jumlah mata kuliah: ");
+        int jumlahmatkul = scanner.nextInt();
+
+        int [][] nilai = new int[4][3];
+
+        for (int i = 0; i < nilai.length; i++){
+            System.out.println("Input nilai mahasiswa ke-" + (i +1));
+            double totalPersiswa = 0;
+
+            for (int j = 0; j < nilai[i].length; j++){
+                System.out.print("Nilai mata kuliah " + (j +1) + ": ");
+                nilai[i][j] = scanner.nextInt();
+                totalPersiswa += nilai[i][j];
+            }
+
+            System.out.println("Nilai rata-rata: " + totalPersiswa / 3);
+        }
+
+            System.out.println("\n==========================================");
+            System.out.println("Rata-rata Nilai Setiap Mata Kuliah");
+
+            for (int j = 0; j < 3; j++){
+                double totalPerMatkul = 0;
+
+                for (int i = 0; i < 4; i++){
+                    totalPerMatkul += nilai[i][j];
+                }
+            
+                System.out.println("Mata kuliah ke-" + (j +1) + ": " + (totalPerMatkul / 4));
+
+
+                scanner.close();
+            
+
+        }
+
+    }
+}
