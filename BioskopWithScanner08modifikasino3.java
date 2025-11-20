@@ -68,7 +68,7 @@ public class BioskopWithScanner08modifikasino3 {
                 return;
              } else {
                 System.out.println("Pilihan tidak valid. Silakan pilih 1-3.");
-            }
+        }
     }
 }
 }
