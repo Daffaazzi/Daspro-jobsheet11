@@ -12,15 +12,15 @@
    Jelaskan fungsi dari penonton.length dan penonton[0].length! 
    Apakah penonton[0].length, penonton[1].length, penonton[2].length, dan 
    penonton[3].length memiliki nilai yang sama? Mengapa?
-   jawab:
+   jawab:Pada kode ini, Anda membuat array 2 dimensi bernama penonton dengan ukuran 4 baris dan 2 kolom untuk menyimpan nama-nama penonton di bioskop.Kemudian, Anda mengisi setiap elemen array dengan nama penonton. Perhatikan bahwa pengisian dilakukan dua kali (duplikat), padahal sekali saja sudah cukup.
 
 5. Modifikasi kode program pada pertanyaan 4 untuk menampilkan panjang setiap baris 
    pada array menggunakan for loop. Compile, run, lalu amati hasilnya.
-   jawab:
+   jawab: Sudah
 
 6. Modifikasi kode program pada pertanyaan 5 untuk menampilkan panjang setiap baris 
    pada array menggunakan foreach loop. Compile, run, lalu amati hasilnya. 
-   jawab:
+   jawab: Sudah
 
 7. Tambahkan kode program untuk menampilkan nama penonton pada baris ke-3 
    menggunakan for loop. Compile, run, lalu amati hasilnya. 
