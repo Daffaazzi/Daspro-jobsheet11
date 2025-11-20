@@ -61,39 +61,39 @@
    Menu 1: Input data penonton 
    Menu 2: Tampilkan daftar penonton 
    Menu 3: Exit 
-   jawab:
+   jawab: Sudah
 
 3. Modifikasi kode program untuk menghandle apabila nomor baris/kolom kursi yang 
    tidak tersedia
-   jawab:
+   jawab: Sudah
 
 4. Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang 
    dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan 
    baris dan kolom kembali
-   jawab: 
+   jawab: Sudah
 
 5. Pada menu 2, jika kursi kosong, ganti null dengan ***
-   jawab:  
+   jawab:  sudah
 
 
 
 
 > Percobaan 3: Array 2 Dimensi dengan Length Baris Berbeda 
 1. Tambahkan kode program sebagai berikut 
-   jawab: 
+   jawab: Sudah
 
 2. Apa fungsi dari Arrays.toString()?
-   jawab:
+   jawab: untuk mengubah isi array menjadi representasi string yang mudah dibaca.
 
 3. Apa nilai default untuk elemen pada array dengan tipe data int? 
-   jawab:
+   jawab: nilai default untuk elemen array bertipe int adalah 0
 
 4. Tambahkan kode program berikut 
-   jawab:
+   jawab: Sudah
 
 5. Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang 
    array dapat dimodifikasi setelah diinstansiasi?
-   jawab:
+   jawab: Tidak, panjang (length) array tidak dapat diubah setelah array diinstansiasi.
 
 
 
