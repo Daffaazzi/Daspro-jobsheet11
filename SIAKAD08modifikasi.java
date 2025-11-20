@@ -9,7 +9,7 @@ public class SIAKAD08modifikasi {
         System.out.print("Masukkan jumlah mata kuliah: ");
         int jumlahmatkul = scanner.nextInt();
 
-        int [][] nilai = new int[4][3];
+        int [][] nilai = new int[jumlahmahasiswa][jumlahmatkul];
 
         for (int i = 0; i < nilai.length; i++){
             System.out.println("Input nilai mahasiswa ke-" + (i +1));
@@ -27,10 +27,10 @@ public class SIAKAD08modifikasi {
             System.out.println("\n==========================================");
             System.out.println("Rata-rata Nilai Setiap Mata Kuliah");
 
-            for (int j = 0; j < 3; j++){
+            for (int j = 0; j < jumlahmatkul; j++){
                 double totalPerMatkul = 0;
 
-                for (int i = 0; i < 4; i++){
+                for (int i = 0; i < jumlahmahasiswa; i++){
                     totalPerMatkul += nilai[i][j];
                 }
             
