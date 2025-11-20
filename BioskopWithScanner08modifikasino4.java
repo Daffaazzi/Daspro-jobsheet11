@@ -51,12 +51,12 @@ public class BioskopWithScanner08modifikasino4 {
                 if (next.equalsIgnoreCase("n")) {
                 }
             } else if (pilihan == 2) {
-                System.out.println("Daftar Penonton:");
+                System.out.println("\n=== Daftar Penonton ===");
                 for (int i = 0; i < penonton.length; i++) {
                     for (int j = 0; j < penonton[i].length; j++) {
-                        String namaPenonton = penonton[i][j];
-                        if (namaPenonton != null) {
-                            System.out.println("Baris " + (i + 1) + ", Kolom " + (j + 1) + ": " + namaPenonton);
+                        String isi = penonton[i][j];
+                        if (isi != null) {
+                            System.out.println("Baris " + (i + 1) + ", Kolom " + (j + 1) + ": " + isi);
                         } else {
                             System.out.println("Baris " + (i + 1) + ", Kolom " + (j + 1) + ": Kosong");
                     }
