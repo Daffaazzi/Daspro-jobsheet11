@@ -24,28 +24,30 @@
 
 7. Tambahkan kode program untuk menampilkan nama penonton pada baris ke-3 
    menggunakan for loop. Compile, run, lalu amati hasilnya. 
-   jawab:
+   jawab: Sudah
 
 8. Modifikasi kode program pada pertanyaan 7 menjadi perulangan dengan foreach 
    loop. Compile, run, lalu lakukan amati hasilnya.
-   jawab: 
+   jawab: sudah
 
 9. Modifikasi kembali kode program pada langkah 11 untuk menampilkan nama 
    penonton untuk setiap baris. Compile dan run program kemudian amati hasilnya. 
-   jawab:
+   jawab: sudah
 
 10. Menurut Anda, apa kekurangan dan kelebihan foreach loop dibandingkan dengan for 
     loop? 
-    jawab:
+    jawab: Kekurangan : sulit untuk operasi loop mundur
+           Kelebihan : tidak perlu indeks manual
 
 11. Berapa indeks baris maksimal untuk array penonton?
-    jawab:
+    jawab:Indeks baris maksimal untuk array penonton adalah 3, karena array dideklarasikan sebagai String[4][2], 
+    yang berarti memiliki 4 baris dengan indeks mulai dari 0 hingga 3.
 
 12. Berapa indeks kolom maksimal untuk array penonton?
-    jawab:
+    jawab: kolom maksimal untuk array penonton adalah 1
 
 13. Apa fungsi dari String.join()? 
-    jawab:
+    jawab: menggabungkan banayak striing
 
 
 
@@ -53,7 +55,7 @@
 >  Percobaan 2: Memanfaatkan Scanner dan Perulangan untuk Input dan Output pada Array 2 Dimensi 
 1. Apakah pengisian elemen array dari scanner harus dilakukan secara berurutan mulai 
    dari indeks ke-0? Jelaskan! 
-   jawab:
+   jawab: Tidak, pengisian elemen array dari Scanner tidak harus selalu dilakukan secara berurutan mulai dari indeks ke-0. Namun, secara logika dan praktik umum, pengisian biasanya dilakukan berurutan agar data lebih terstruktur dan mudah dikelola.
 
 2. Modifikasi kode program untuk memberikan opsi menu sebagai berikut: - - - 
    Menu 1: Input data penonton 

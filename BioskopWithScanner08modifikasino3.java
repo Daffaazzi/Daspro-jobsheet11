@@ -25,6 +25,16 @@ public class BioskopWithScanner08modifikasino3 {
                 kolom = scanner.nextInt();
                 scanner.nextLine();
 
+            if (baris < 1 || baris > 4) {
+                    System.out.println(" Baris " + baris + " tidak tersedia! (Hanya 1-4)");
+                    continue;
+                }
+
+                if (kolom < 1 || kolom > 2) {
+                    System.out.println(" Kolom " + kolom + " tidak tersedia! (Hanya 1-2)");
+                    continue; 
+                }
+
                 if (baris >= 1 && baris <= 4 && kolom >= 1 && kolom <= 2) {
                     if (penonton[baris - 1][kolom - 1] != null) {
                         System.out.println("Kursi baris " + baris + ", kolom " + kolom + " sudah ditempati oleh " + penonton[baris - 1][kolom - 1] + ".");
@@ -61,4 +71,4 @@ public class BioskopWithScanner08modifikasino3 {
             }
     }
 }
-}
+    }
